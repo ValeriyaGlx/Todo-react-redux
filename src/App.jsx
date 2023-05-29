@@ -37,7 +37,7 @@ function App() {
       />
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Todo name={input} />} />
+        <Route exact path="Todo-react-redux/" element={<Todo name={input} />} />
         <Route path="/todo" element={<Todo name={input} />} />
         <Route path="/done" element={<Done />} />
         <Route path="/info" element={<Info name={input} />} />
