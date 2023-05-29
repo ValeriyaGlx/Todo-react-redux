@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Todo-react-redux/static/css/main.3ecf9604.css",
+    "main.js": "/Todo-react-redux/static/js/main.502668a3.js",
+    "static/media/check.png": "/Todo-react-redux/static/media/check.6409629d6bb7114ad5bc.png",
+    "index.html": "/Todo-react-redux/index.html",
+    "main.3ecf9604.css.map": "/Todo-react-redux/static/css/main.3ecf9604.css.map",
+    "main.502668a3.js.map": "/Todo-react-redux/static/js/main.502668a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ecf9604.css",
+    "static/js/main.502668a3.js"
+  ]
+}
