@@ -1,0 +1,54 @@
+.todoItem {
+   width: 30%;
+   margin: 10px auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+
+.button, .buttonEdit {
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+    padding: 5px;
+    background-color: inherit;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.button {
+    margin-left: 14px;
+    background-image: url('../../assets/delete.png');
+}
+
+.buttonEditSym {
+    background-image: url('../../assets/pen.png');
+}
+
+.buttonCheck {
+    background-image: url('../../assets/check.png');
+}
+
+.button:hover, .buttonEdit:hover {
+    transform: scale(1.1);
+}
+
+.todoItem input {
+    margin: 0;
+}
+
+.complited {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.buttonDiasbled {
+    opacity: .5;
+    cursor: default;
+}
+
+.buttonDiasbled:hover {
+    transform: scale(1);
+}

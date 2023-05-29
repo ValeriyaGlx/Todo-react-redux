@@ -1,0 +1,29 @@
+
+.navBar {
+    padding-top: 40px;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 100%;
+  }
+  
+  .navBar__links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 9%;
+    font: 25px;
+  }
+  
+  .navBar__links li:hover {
+    transform: scale(1.1);
+  }
+  
+  .navBar__links a:active {
+    transform: scale(1.1);
+    color:red
+  }
+
+  .nav_link_selected {
+    font-weight: 900;
+    color:red;
+  }

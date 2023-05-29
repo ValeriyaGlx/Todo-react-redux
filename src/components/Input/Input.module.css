@@ -1,0 +1,14 @@
+.todoContainer {
+    width: 300px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.span{
+    text-align: right;
+    color: red;
+    font-size: 14px;
+    margin: 0;
+}
